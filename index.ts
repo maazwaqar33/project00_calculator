@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 
+
 import inquirer from 'inquirer';
 import chalkAnimation from 'chalk-animation';
 import chalk from 'chalk';
@@ -14,7 +15,7 @@ const sleep =()=>{
 
 
 // welcome message with chalkANimation
-async function welcomeMessage() {
+async function welcomeMessage(){
 
     let title = chalkAnimation.neon("Let's Do some math mate")
     await sleep();
